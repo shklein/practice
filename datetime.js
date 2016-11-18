@@ -48,3 +48,5 @@ translate(day);
 amPM(hour);
 console.log('Today is: ' + dayString);
 console.log('Current time is: ' + hour + ' ' + merid + ' : ' + min + ' : ' + sec);
+
+console.log(d);

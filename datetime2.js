@@ -19,4 +19,13 @@ var amPM = function (hour) {
 }
 
 amPM(hour);
+
+var year = today.getFullYear().toString();
+var month = today.getMonth() + 1;
+month = month.toString();
+var date = today.getDate().toString();
 console.log('Current time is: ' + hour + ' ' + merid + ' : ' + min + ' : ' + sec);
+
+var currentDate = date + '/' + month + '/' + year;
+console.log(currentDate);
+document.write('Today is ' + currentDate + '.');
